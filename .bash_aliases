@@ -1,3 +1,5 @@
 alias vim='gvim -f'
 
-alias copy='xsel -ib'                      # Direct stdout into copy to copy to system clipboard 
+# Direct stdout into copy to copy to system clipboard 
+# e.g. ls | copy
+alias copy='xsel -ib'
